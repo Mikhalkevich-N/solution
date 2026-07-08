@@ -43,9 +43,9 @@ def is_balanced(sequence):
 def main():
     user_input = input("Введите строку со скобками: ")
     if is_balanced(user_input):
-        print("Сбалансированно")
+        print("Balanced")          # <-- ИЗМЕНЕНО (было "Сбалансированно")
     else:
-        print("Несбалансированно")
+        print("Unbalanced")        # <-- ИЗМЕНЕНО (было "Несбалансированно")
 
 
 if __name__ == "__main__":
